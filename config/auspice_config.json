@@ -1,0 +1,86 @@
+{
+  "title": "Tracking Asian tiger mosquito (Aedes albopictus) outbreaks in the Netherlands using Nextstrain",
+  "color_options": {
+    "gt": {
+      "menuItem": "genotype",
+      "legendTitle": "Genotype",
+      "type": "discrete",
+      "key": "genotype"
+    },
+    "num_date": {
+      "menuItem": "date",
+      "legendTitle": "Sampling date",
+      "type": "continuous",
+      "key": "num_date"
+    },
+    "pathway": {
+      "legendTitle": "Pathway",
+      "key": "pathway",
+      "menuItem": "pathway",
+      "type": "discrete"
+    },
+	"population_type": {
+      "legendTitle": "population_type",
+      "key": "population_type",
+      "menuItem": "population_type",
+      "type": "discrete"
+    },
+	"stage": {
+      "legendTitle": "stage",
+      "key": "stage",
+      "menuItem": "stage",
+      "type": "discrete"
+    },
+	"haplogroup_Battaglia": {
+      "legendTitle": "haplogroup_Battaglia",
+      "key": "haplogroup_Battaglia",
+      "menuItem": "haplogroup_Battaglia",
+      "type": "discrete"
+    },
+	"haplogroup_Ibanez": {
+      "legendTitle": "haplogroup_Ibanez",
+      "key": "haplogroup_Ibanez",
+      "menuItem": "haplogroup_Ibanez",
+      "type": "discrete"
+    },
+    "authors": {
+      "key":"authors",
+      "legendTitle":"Authors",
+      "menuItem":"authors",
+      "type":"discrete"
+    },
+    "country": {
+    },
+    "municipality": {
+    }
+  },
+  "geo": [
+    "continent",
+	"country",
+    "state",
+    "municipality"
+  ],
+  "panels":[
+    "tree",
+    "map",
+    "entropy"
+  ],
+  "defaults": {
+    "mapTriplicate": true
+  },
+  "maintainer": [
+    "Bart T.L.H. van de Vossenberg and Adolfo Ibanez",
+    "https://www.nvwa.nl/onderwerpen/muggen-knutten-en-teken/aziatische-tijgermug"
+  ],
+  "filters": [
+  "stage",
+  "population_type",
+  "continent",
+  "country",
+  "state",
+  "municipality",
+  "pathway",
+  "haplogroup_Battaglia",
+  "haplogroup_Ibanez"
+  ]
+}
